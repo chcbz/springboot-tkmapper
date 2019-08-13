@@ -2,6 +2,8 @@ package com.modificial.api.anoncation;
 
 import org.springframework.stereotype.Component;
 
+import java.lang.annotation.*;
+
 /**
  * @author modificial
  * @date 2018/6/12

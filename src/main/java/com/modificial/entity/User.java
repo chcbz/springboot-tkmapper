@@ -20,7 +20,7 @@ import javax.persistence.Table;
 @ApiModel
 @ToString
 @Table(name = "user")
-public class User {
+public class User extends BaseEntity {
 @ApiModelProperty(value = "id")
 @Id
 @GeneratedValue(strategy = GenerationType.IDENTITY)
